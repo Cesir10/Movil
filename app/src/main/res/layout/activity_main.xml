@@ -8,10 +8,9 @@
 
     <Button
         android:id="@+id/buttonLogin"
-
-        android:layout_width="239dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="476dp"
+        android:layout_width="260dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="464dp"
         android:text="Login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,8 +18,8 @@
 
     <TextView
         android:id="@+id/textViewForgotPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
         android:layout_marginTop="60dp"
         android:text="Forgot your password?"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,23 +28,25 @@
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/editTextEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_width="360dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="68dp"
         android:hint="E-mail"
         android:inputType="textEmailAddress"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="25dp"
+        tools:ignore="MissingConstraints" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/editTextPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="340dp"
+        android:layout_width="354dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="364dp"
         android:hint="Password"
         android:inputType="textPassword"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="28dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView"
