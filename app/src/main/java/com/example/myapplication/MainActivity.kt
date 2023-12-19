@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
             if (isValidInput(email, password)) {
 
-                val intent = Intent(this, MainActivity2::class.java)
+                val intent = Intent(this, MainACtivity2::class.java)
                 startActivity(intent)
             } else {
                 Toast.makeText(this, getString(R.string.error_empty_fields), Toast.LENGTH_SHORT).show()
