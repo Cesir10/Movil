@@ -28,6 +28,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonLogin" />
 
+    <TextView
+        android:id="@+id/textViewNombreApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="CheFestivo"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/editTextEmail"
         android:layout_width="360dp"
@@ -47,8 +64,8 @@
         android:hint="Password"
         android:inputType="textPassword"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="28dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp" />
 
     <ImageView
         android:id="@+id/imageView"

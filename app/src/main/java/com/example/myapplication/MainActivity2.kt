@@ -6,14 +6,14 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 
-class MainACtivity2 : AppCompatActivity() {
+class MainActivity2 : AppCompatActivity() {
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main2)
 
-        // Configurar clics de botones
+        // Configurar clics de botones (si es necesario)
         findViewById<View>(R.id.buttonEntrantes).setOnClickListener {
             startActivity(Intent(this, EntrantesActivity::class.java))
         }

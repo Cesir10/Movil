@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/cocinero"
+        android:src="@drawable/cocinero3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -24,11 +24,11 @@
         android:id="@+id/buttonEntrantes"
         android:layout_width="260dp"
         android:layout_height="56dp"
-        android:layout_marginTop="324dp"
+        android:layout_marginTop="144dp"
         android:backgroundTint="@color/naranja"
         android:text="Entrantes"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintHorizontal_bias="0.105"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,11 +36,11 @@
         android:id="@+id/buttonPrimeros"
         android:layout_width="260dp"
         android:layout_height="56dp"
-        android:layout_marginTop="412dp"
+        android:layout_marginTop="208dp"
         android:backgroundTint="@color/naranja"
         android:text="Primeros"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintHorizontal_bias="0.105"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -48,11 +48,11 @@
         android:id="@+id/buttonSegundos"
         android:layout_width="260dp"
         android:layout_height="56dp"
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="272dp"
         android:backgroundTint="@color/naranja"
         android:text="Segundos"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintHorizontal_bias="0.105"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
