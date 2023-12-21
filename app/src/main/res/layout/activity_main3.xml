@@ -46,7 +46,7 @@
         android:background="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-9dp" />
+        tools:layout_editor_absoluteX="2dp" />
 
     <TextView
         android:id="@+id/CebollaQueso"
